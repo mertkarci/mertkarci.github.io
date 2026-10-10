@@ -60,7 +60,7 @@ html[data-lang="tr"] [lang="en"]:not(html) { display: none !important; }
 .brand img { width: 40px; height: 40px; border-radius: 10px; box-shadow: 0 0 0 2px var(--line); }
 .brand span { font: 700 18px/1 var(--pixel); letter-spacing: 0.06em; }
 /* Pixel type: always uppercase so Turkish i/ı map to İ/I through the element's lang (the font has no lowercase ı). */
-.soon, .eyebrow, .mode h3, .result h2, .support h2, .doc h1 { text-transform: uppercase; }
+.eyebrow, .mode h3, .result h2, .support h2, .doc h1 { text-transform: uppercase; }
 .top nav { display: flex; align-items: center; gap: 18px; font-weight: 500; }
 .top nav a { color: var(--muted); text-decoration: none; }
 .top nav a:hover, .top nav a[aria-current="page"] { color: var(--ink); }
@@ -121,11 +121,7 @@ html[data-lang="tr"] .lang [data-set="tr"] { color: var(--night); background: va
 .hero h1 img { width: min(520px, 100%); height: auto; display: block; filter: drop-shadow(0 10px 30px #0008); }
 .hero .lead { font-size: clamp(20px, 2.4vw, 24px); line-height: 1.45; color: var(--ink); margin: 28px 0 12px; max-width: 30ch; }
 .hero .sub { color: var(--muted); margin: 0 0 28px; max-width: 44ch; }
-.hero .stroke { width: min(340px, 80%); margin: 0 0 30px; }
-.soon {
-  display: inline-block; font: 700 13px/1 var(--pixel); letter-spacing: 0.1em; color: var(--gold);
-  border: 1px dashed #ffd16699; padding: 10px 14px;
-}
+.hero .stroke { width: min(340px, 80%); margin: 0; }
 
 .phones { position: relative; height: 560px; }
 .phone {
